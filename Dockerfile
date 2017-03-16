@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:7.7
 
 RUN apt-get update \
     && apt-get install -y apt-transport-https
